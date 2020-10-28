@@ -132,14 +132,16 @@ span {
 @media (max-width: 525px) {
   .header {
     font-size: 1.9rem;
+    margin-bottom: 14px;
   }
 
   .heading-h3 {
     font-size: 1.2rem;
+    margin-bottom: 15px;
   }
 
   .heading-paragraph {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .subscribe-title {
@@ -159,3 +161,21 @@ span {
     font-size: 16px;
   }
 }
+
+@media (max-width: 392px) {
+    .header {
+      font-size: 1.5rem;
+    }
+  
+    .heading-h3 {
+      font-size: 1rem;
+    }
+  
+    .heading-paragraph {
+      font-size: 14px;
+    }
+  
+    .subscribe-title {
+      font-size: 1.2rem;
+    }
+  }
