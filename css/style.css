@@ -14,7 +14,7 @@ body {
   padding: 0;
 }
 
-#sections-container {
+#sections-containers {
   background-color: #fff;
   width: 55%;
   margin: 2.5% auto 2.5%;
@@ -26,7 +26,7 @@ body {
   padding: 5% 6% 5% 6%;
 }
 
-.header {
+.heading-title {
   color: hsl(179, 62%, 43%);
   margin-bottom: 2%;
   font-weight: 500;
@@ -123,14 +123,14 @@ span {
 }
 
 @media (max-width: 757px) {
-  #sections-container {
+  #sections-containers {
     width: 80%;
     margin: 3.5% auto 3.5% auto;
   }
 }
 
 @media (max-width: 525px) {
-  .header {
+  .heading-title {
     font-size: 1.9rem;
     margin-bottom: 14px;
   }
